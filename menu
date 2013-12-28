@@ -1,0 +1,7 @@
+[begin] (fluxbox)
+[exec] (term) {gnome-terminal --hide-menubar}
+[exec] (emacs) {emacs}
+[exec] (chrome) {chromium}
+[separator]
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+[end]

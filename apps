@@ -1,0 +1,18 @@
+[app] (name=fbrun)
+  [Position]	(WINCENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=emacs) (class=Emacs)
+  [Dimensions]	{940 735}
+  [Position]	(TOP)	{0 0}
+  [Tab]		{yes}
+[end]
+[app] (name=gnome-terminal)
+  [Dimensions]	{940 735}
+  [Position]	(TOP)	{0 0}
+  [Tab]		{yes}
+[end]
+[app] (name=chromium) (class=Chromium)
+  [Dimensions]	{1050 740}
+  [Position]	(CENTER)	{0 0}
+[end]
