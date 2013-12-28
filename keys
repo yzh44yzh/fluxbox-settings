@@ -4,7 +4,6 @@ Mod1 F1 :RootMenu
 Mod1 F2 :Exec fbrun
 
 # open a terminal
-# Mod1 F3 :Exec gnome-terminal --hide-menubar
 Mod1 F3 :Exec x-terminal-emulator
 
 # switch keyboard layout
