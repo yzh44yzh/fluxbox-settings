@@ -7,7 +7,9 @@
 # Change your keymap:
 xmodmap "/home/yura/.Xmodmap"
 
-/usr/bin/setxkbmap -option 'ctrl:nocaps'
+setxkbmap -option 'ctrl:nocaps' # caps key works as ctrl
+xset r rate 400 35 # cursor speed
+
 ~/.dropbox-dist/dropboxd &
 
 # Applications you want to run with fluxbox.

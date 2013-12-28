@@ -1,0 +1,128 @@
+! meta modified
+! based on Meta by joel carlbark 2003
+
+toolbar:                             flat gradient vertical
+toolbar.color:                       #292929
+toolbar.colorTo:                     #292929
+toolbar.borderWidth:                 0
+
+toolbar.iconbar.borderWidth:         0
+toolbar.iconbar.focused.textColor:   #292929
+toolbar.iconbar.unfocused.textColor: #292929
+
+toolbar.button:                      parentrelative
+toolbar.button.picColor:             #ededed
+
+toolbar.button.pressed:              sunken solid
+toolbar.button.pressed.color:        #526d8c
+toolbar.button.pressed.picColor:     #000000
+
+! clock
+toolbar.clock:                       parentrelative
+toolbar.clock.textColor:             #ededed
+
+! shows workspace nr
+toolbar.label:                       parentrelative
+toolbar.label.textColor:             #ededed
+
+! current active window / toolbar
+toolbar.windowLabel:                 parentrelative
+toolbar.windowLabel.textColor:       #ededed
+
+! menu ---------
+menu.title:                          flat gradient vertical
+menu.title.color:                    #292929
+menu.title.colorTo:                  #414147
+menu.title.textColor:                #ededed
+
+menu.frame:                          flat gradient vertical
+menu.frame.color:                    #efefef
+menu.frame.colorTo:                  #c6c3c6
+menu.frame.textColor:                black
+
+menu.hilite:                         flat solid
+menu.hilite.color:                   #849ec6
+menu.hilite.textColor:               white
+
+menu.bullet:                         triangle
+menu.bullet.position:                right
+
+! window --------------
+window.borderColor:                  #555555
+window.borderWidth:                  1
+
+window.title.focus:                  flat gradient vertical
+window.title.focus.color:            #292929
+window.title.focus.colorTo:          #292929
+
+window.label.focus:                  parentrelative
+window.label.focus.textColor:        #ededed
+
+window.button.focus:                 flat gradient vertical
+window.button.focus.color:           #494949
+window.button.focus.colorTo:         #494949
+window.button.focus.picColor:        #ededed
+
+window.button.pressed:               sunken solid
+window.button.pressed.color:         #999999
+window.button.pressed.picColor:      #000000
+
+window.handle.focus:                 flat gradient vertical
+window.handle.focus.color:           #292929
+window.handle.focus.colorTo:         #292929
+
+window.grip.focus:                   flat gradient vertical
+window.grip.focus.color:             #414147
+window.grip.focus.colorTo:           #414147
+
+window.frame.focus:                  flat solid
+window.frame.focus.color:            white
+
+! unfocused
+window.title.unfocus:                flat gradient vertical
+window.title.unfocus.color:          #efefef
+window.title.unfocus.colorTo:        #c6c3c6
+
+window.label.unfocus:                parentrelative
+window.label.unfocus.textColor:      #949694
+
+window.handle.unfocus:               flat gradient vertical
+window.handle.unfocus.color:         #efefef
+window.handle.unfocus.colorTo:       #c6c3c6
+
+window.grip.unfocus:                 flat gradient vertical
+window.grip.unfocus.color:           #efefef
+window.grip.unfocus.colorTo:         #c6c3c6
+
+window.frame.unfocus:                flat solid
+window.frame.unfocus.color:          white
+
+window.button.unfocus:               flat gradient vertical
+window.button.unfocus.color:         #efefef
+window.button.unfocus.colorTo:       #c6c3c6
+window.button.unfocus.picColor:      #949694
+
+! tabs ------
+window.tab.justify:                  left
+window.tab.label.focused.textColor:    #ff0000
+window.tab.label.unfocused.textColor:  #0000ff
+
+window.tab.borderWidth:              1
+window.tab.borderColor:              #505050
+! -------
+
+toolbar.justify:                     left
+window.justify:                      center
+menu.title.justify:                  center
+menu.frame.justify:                  left
+
+borderColor:                         #000000
+borderWidth:                         1
+bevelWidth:                          1
+frameWidth:                          1
+handleWidth:                         4
+
+background: flat
+background.color:                    #666666
+
+*font:                               ubuntu-11
