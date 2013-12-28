@@ -2,15 +2,20 @@
   [Position]	(WINCENTER)	{0 0}
   [Layer]	{2}
 [end]
+
 [app] (name=emacs)
   [Dimensions]	{1020 740}
   [Position]	(TOPCENTER)	{0 0}
 [end]
-[app] (name=gnome-terminal)
-  [Dimensions]	{900 700}
-  [Position]	(TOPCENTER)	{0 0}
-  [Tab]		{yes}
+
+[group]  (workspace=[current])
+  [app] (name=gnome-terminal)
+    [Dimensions]	{900 700}
+    [Position]	(TOPCENTER)	{0 0}
+    [Tab]		{yes}
+  [end]
 [end]
+
 [app] (name=chromium-browser)
   [Dimensions]	{1020 740}
   [Position]	(TOPCENTER)	{0 0}

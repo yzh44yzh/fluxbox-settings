@@ -8,6 +8,7 @@
 xmodmap "/home/yura/.Xmodmap"
 
 /usr/bin/setxkbmap -option 'ctrl:nocaps'
+~/.dropbox-dist/dropboxd &
 
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
