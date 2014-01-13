@@ -7,10 +7,21 @@
 # Change your keymap:
 xmodmap "/home/yura/.Xmodmap"
 
-setxkbmap -option 'ctrl:nocaps' # caps key works as ctrl
+setxkbmap -layout us,ru \
+-option \
+grp:menu_toggle,\
+grp_led:scroll,\
+terminate:ctrl_alt_bksp,\
+ctrl:nocaps
+
+#grp:menu_toggle       Menu key changes group.
+#ctrl:nocaps caps key works as ctrlw
+
+#setxkbmap -option 'ctrl:nocaps'
 xset r rate 400 35 # cursor speed
 
 ~/.dropbox-dist/dropboxd &
+nm-applet & # network manager applet
 
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.

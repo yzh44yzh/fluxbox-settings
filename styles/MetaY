@@ -59,8 +59,8 @@ window.label.focus:                  parentrelative
 window.label.focus.textColor:        #ededed
 
 window.button.focus:                 flat gradient vertical
-window.button.focus.color:           #494949
-window.button.focus.colorTo:         #494949
+window.button.focus.color:           #292929
+window.button.focus.colorTo:         #292929
 window.button.focus.picColor:        #ededed
 
 window.button.pressed:               sunken solid

@@ -1,14 +1,10 @@
-Mod1 F1 :RootMenu 
+Mod1 F1 :RootMenu
 
 # open a dialog to run programs
 Mod1 F2 :Exec fbrun
 
 # open a terminal
 Mod1 F3 :Exec x-terminal-emulator
-
-# switch keyboard layout
-Control F9 :Exec setxkbmap us 
-Control F10 :Exec setxkbmap ru
 
 # cycle through tabs in the current window
 Mod4 Right :NextTab
@@ -17,6 +13,9 @@ Mod4 Left :PrevTab
 # open the window menu
 Mod4 space :WindowMenu
 
+# sound volume
+Control Mod4 Up		:Exec amixer sset Master,0 1+
+Control Mod4 Down	:Exec amixer sset Master,0 1-
 
 ###########
 
@@ -96,4 +95,3 @@ Control Mod1 5 :Workspace 5
 Control Mod1 6 :Workspace 6
 Control Mod1 7 :Workspace 7
 Control Mod1 8 :Workspace 8
-
