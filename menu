@@ -2,6 +2,7 @@
 [exec] (term) {x-terminal-emulator}
 [exec] (emacs) {emacs}
 [exec] (chrome) {chromium-browser}
+[exec] (lock screen) {xlock -mode qix}
 [separator]
 [include] (/etc/X11/fluxbox/fluxbox-menu)
 [end]

@@ -14,8 +14,11 @@ Mod4 Left :PrevTab
 Mod4 space :WindowMenu
 
 # sound volume
-Control Mod4 Up		:Exec amixer sset Master,0 1+
-Control Mod4 Down	:Exec amixer sset Master,0 1-
+Control Mod4 Up		:Exec amixer sset Master,0 2+
+Control Mod4 Down	:Exec amixer sset Master,0 2-
+
+# lock screen
+Control Mod4 L      :Exec xlock -mode qix
 
 ###########
 

@@ -17,6 +17,8 @@ ctrl:nocaps
 #grp:menu_toggle       Menu key changes group.
 #ctrl:nocaps caps key works as ctrlw
 
+fbxkb & # keyboard indicator in tray
+
 #setxkbmap -option 'ctrl:nocaps'
 xset r rate 400 35 # cursor speed
 
