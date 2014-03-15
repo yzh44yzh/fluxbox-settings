@@ -1,3 +1,6 @@
+# http://www.fluxbox.org/help/man-fluxbox-apps.php
+# use xprop to know name, class etc
+
 [app] (name=fbrun)
   [Position]	(WINCENTER)	{0 0}
   [Layer]	{2}
@@ -18,5 +21,9 @@
 
 [app] (name=chromium-browser)
   [Dimensions]	{1020 740}
+  [Position]	(TOPCENTER)	{0 0}
+[end]
+
+[app] (name=main.py)
   [Position]	(TOPCENTER)	{0 0}
 [end]
