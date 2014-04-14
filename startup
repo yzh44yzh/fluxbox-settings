@@ -17,13 +17,21 @@ ctrl:nocaps
 #grp:menu_toggle       Menu key changes group.
 #ctrl:nocaps caps key works as ctrlw
 
-fbxkb & # keyboard indicator in tray
+# keyboard indicator in tray
+fbxkb &
 
 #setxkbmap -option 'ctrl:nocaps'
 xset r rate 400 35 # cursor speed
 
+# dropbox
 ~/.dropbox-dist/dropboxd &
-nm-applet & # network manager applet
+
+# network manager applet
+nm-applet &
+
+# battery monitor
+cd ~/.fluxbox/battery; python main.py &
+
 
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
