@@ -19,11 +19,16 @@
   [end]
 [end]
 
-[app] (name=chromium-browser)
+[app] (name=firefox)
   [Dimensions]	{1020 740}
   [Position]	(TOPCENTER)	{0 0}
 [end]
 
 [app] (name=main.py)
+  [Position]	(TOPCENTER)	{0 0}
+[end]
+
+[app] (name=evince)
+  [Dimensions]	{1020 740}
   [Position]	(TOPCENTER)	{0 0}
 [end]
